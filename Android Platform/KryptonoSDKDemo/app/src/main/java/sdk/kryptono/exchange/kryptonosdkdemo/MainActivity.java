@@ -22,8 +22,8 @@ import sdk.kryptono.exchange.kryptonoexchangesdk.mvp_module.kryptono.KryptonoExc
 
 public class MainActivity extends AppCompatActivity
 {
-    public static final String CLIENT_KEY_PROD = "eyJhbGciOiJIUzUxMiJ9.eyJjcmVhdGVkQXQiOjE1MzMyODcxMDQwNDgsInN1YiI6IiIsImVudGVycHJpc2VJRCI6ImQxZTMwNjRhLWIwZDAtNGJhNy1hYWI1LTZiYTI4ZGFhYmYzOSIsInR5cGUiOiJjbGllbnRLZXkiLCJleHAiOjE3MzA5Mzc2MDAwLCJpYXQiOjE1MzMyODcxMDR9.Li8Lrl5gFPs3dglAxIPfBNrAVaSsnkRkrdPxqW1jD8XroGOXAxvpt2bwO6Qu8zMVaYbPOX8RuS84cTDlXltLyQ";
-    public static final String CHECKSUM_KEY_PROD = "Zt3m+PbKotYSZQrdGw5d2KeD3f5eM447GTCkbBHujbw=";
+    public static final String CLIENT_KEY_PROD = "<YOUR CLIENT KEY>";
+    public static final String CHECKSUM_KEY_PROD = "<YOUR CHECKSUM KEY>";
     public static final String IDENTITY_ID_PROD = "ThangPM_Prod";
 
     public static final int REQUEST_CODE_KRYPTONO_EXCHANGE_SDK = 999;
