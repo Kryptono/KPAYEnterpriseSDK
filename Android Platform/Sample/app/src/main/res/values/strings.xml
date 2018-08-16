@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kryptono Exchange SDK Sample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">The third-party application written in native Android is using Kryptono Exchange SDK!</string>
+    <string name="payment_id">Payment ID</string>
+    <string name="error_message">(Error) Message</string>
+    <string name="fixed_amount">Fixed amount (Receive from 3rd-party app)</string>
+    <string name="change_sdk_language">Change SDK Language</string>
+    <string name="open_sdk">Open Kryptono SDK</string>
+    <string name="language_selection_title">Please select language for Kryptono Exchange SDK</string>
+
+</resources>
