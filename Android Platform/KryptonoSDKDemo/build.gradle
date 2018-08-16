@@ -21,12 +21,6 @@ allprojects {
         jcenter()
         mavenCentral()
 
-        /*
-            Author: ThangPM
-            Message:
-                - Please include this repository so that your gradle can find our SDK dependency.
-                - If you are using maven, please contact us.
-        */
         maven {
             url "https://dl.bintray.com/thangpm/maven"
         }

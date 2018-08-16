@@ -31,9 +31,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    /*
-        Author: ThangPM
-        Message: Please add our SDK as your dependency here
-     */
-    implementation 'kryptono.exchange:kryptono-exchange-sdk:1.0.0'
+    implementation 'kryptono.exchange:kryptono-exchange-sdk:1.0.1'
 }
