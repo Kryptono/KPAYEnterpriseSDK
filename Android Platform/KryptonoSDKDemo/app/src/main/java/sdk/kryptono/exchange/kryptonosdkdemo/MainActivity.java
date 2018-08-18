@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
 {
     public static final String CLIENT_KEY_PROD = "<YOUR CLIENT KEY>";
     public static final String CHECKSUM_KEY_PROD = "<YOUR CHECKSUM KEY>";
-    public static final String IDENTITY_ID_PROD = "ThangPM_Prod";
+    public static final String IDENTITY_ID_PROD = "123456";
 
     public static final int REQUEST_CODE_KRYPTONO_EXCHANGE_SDK = 999;
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
         rlOpenSDK = (RelativeLayout) findViewById(R.id.rl_open_sdk);
 
         /*
-            Author: ThangPM
+            Author: Kryptono
             Date:   16-08-2018
             Title:  DEMO Language Selection
          */
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity
                 /*
                     IMPORTANT: Initialize required parameters for Kryptono Exchange SDK.
 
-                    Author:     ThangPM
+                    Author:     Kryptono
                     Date:       16-08-2018
                     Message:
 
@@ -116,7 +116,9 @@ public class MainActivity extends AppCompatActivity
                     P/s: Please contact our support or document for more detail about these 2 modes.
                  */
 
-                sdkSettings = new KryptonoSdkSettings(CLIENT_KEY_PROD, CHECKSUM_KEY_PROD, IDENTITY_ID_PROD);
+                KryptonoSdkSettings sdkSettings = new KryptonoSdkSettings(CLIENT_KEY_PROD, CHECKSUM_KEY_PROD, IDENTITY_ID_PROD);
+
+
                 sdkSettings.setLanguage(language);
 
                 String fixedAmount = etFixedAmount.getText().toString();
@@ -133,7 +135,7 @@ public class MainActivity extends AppCompatActivity
     /*
         IMPORTANT: Receive response data from Kryptono Exchange SDK.
 
-        Author:     ThangPM
+        Author:     Kryptono
         Date:       16-08-2018
         Message:
 
