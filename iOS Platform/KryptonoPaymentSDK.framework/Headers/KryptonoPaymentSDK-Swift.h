@@ -167,6 +167,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import UIKit;
 @import CoreGraphics;
+@import QuartzCore;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -222,6 +223,12 @@ SWIFT_CLASS("_TtC18KryptonoPaymentSDK18BaseViewController")
 @end
 
 
+
+
+@interface CALayer (SWIFT_EXTENSION(KryptonoPaymentSDK))
+- (void)pause;
+- (void)resume;
+@end
 
 
 SWIFT_CLASS("_TtC18KryptonoPaymentSDK9Configure")
@@ -320,6 +327,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NetworkManag
 
 
 
+
+
 SWIFT_CLASS("_TtC18KryptonoPaymentSDK14PrivateManager")
 @interface PrivateManager : BaseManager
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PrivateManager * _Nullable internalInstance;)
@@ -375,6 +384,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SettingManag
 @interface UIFont (SWIFT_EXTENSION(KryptonoPaymentSDK))
 + (void)registerFontWithFilenameStringWithFilenameString:(NSString * _Nonnull)filenameString bundle:(NSBundle * _Nonnull)bundle;
 @end
+
+
+
+
 
 
 
