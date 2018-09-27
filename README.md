@@ -1,7 +1,7 @@
 # Folder Structure
 
 * Folder `iOS Platform`
-    - File `KryptonoPayment.framework` : official framework file.
+    - File `KPAYEnterprise.framework` : official framework file.
     - Folder `Sample` : contains sample xCode project.
 
 * Folder `Android Platform`
