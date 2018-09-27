@@ -1,7 +1,7 @@
 # Folder Structure
 
 * Folder `iOS Platform`
-    - File `KryptonoPaymentSDK.framework` : official framework file.
+    - File `KryptonoPayment.framework` : official framework file.
     - Folder `Sample` : contains sample xCode project.
 
 * Folder `Android Platform`
