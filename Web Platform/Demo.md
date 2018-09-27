@@ -17,4 +17,4 @@ Top up purpose: https://codepen.io/kryptono/pen/qyyJde
 
 
 
-Note: Please check our technical document 'Kryptono_PaymentSDK Technical Document_v1.pdf' for more detail
+Note: Please check our technical document 'Document.md' for more detail
