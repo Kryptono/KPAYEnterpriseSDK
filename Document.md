@@ -1,7 +1,7 @@
-# Checkout developing document
+# Checkout Technical document
 
-at our Official website `https://kpay.kryptono.exchange/doc`
+at our Official website `https://kpay.kryptono.exchange/doc/enterprises`
 
 
-or at our Official Github `https://github.com/Kryptono/PaymentSDK/wiki/Kryptono-Payment-SDK-Technical-Document`
+or at our Official Github `https://github.com/Kryptono/KPAYEnterpriseSDK/wiki/Technical-Document`
 
