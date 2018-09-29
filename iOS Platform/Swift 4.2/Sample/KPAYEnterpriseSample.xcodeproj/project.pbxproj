@@ -12,8 +12,7 @@
 		8C46E2AD215B64A7009AAFCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C46E2AB215B64A7009AAFCF /* Main.storyboard */; };
 		8C46E2AF215B64A8009AAFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C46E2AE215B64A8009AAFCF /* Assets.xcassets */; };
 		8C46E2B2215B64A8009AAFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C46E2B0215B64A8009AAFCF /* LaunchScreen.storyboard */; };
-		8CC4F6BD215E92430011B72C /* KPAYEnterprise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC4F6BB215E923D0011B72C /* KPAYEnterprise.framework */; };
-		8CC4F6BE215E92430011B72C /* KPAYEnterprise.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC4F6BB215E923D0011B72C /* KPAYEnterprise.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C791E15215EFE8900F0BCA7 /* KPAYEnterprise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C791E14215EFE8900F0BCA7 /* KPAYEnterprise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8CC4F6BE215E92430011B72C /* KPAYEnterprise.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +36,7 @@
 		8C46E2AE215B64A8009AAFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C46E2B1215B64A8009AAFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C46E2B3215B64A8009AAFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CC4F6BB215E923D0011B72C /* KPAYEnterprise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KPAYEnterprise.framework; path = Framework/KPAYEnterprise.framework; sourceTree = "<group>"; };
+		8C791E14215EFE8900F0BCA7 /* KPAYEnterprise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KPAYEnterprise.framework; path = Framework/KPAYEnterprise.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC4F6BD215E92430011B72C /* KPAYEnterprise.framework in Frameworks */,
+				8C791E15215EFE8900F0BCA7 /* KPAYEnterprise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +72,7 @@
 			children = (
 				8C46E2A7215B64A7009AAFCF /* AppDelegate.swift */,
 				8C46E2A9215B64A7009AAFCF /* ViewController.swift */,
-				8CC4F6BB215E923D0011B72C /* KPAYEnterprise.framework */,
+				8C791E14215EFE8900F0BCA7 /* KPAYEnterprise.framework */,
 				8C46E2AB215B64A7009AAFCF /* Main.storyboard */,
 				8C46E2AE215B64A8009AAFCF /* Assets.xcassets */,
 				8C46E2B0215B64A8009AAFCF /* LaunchScreen.storyboard */,
